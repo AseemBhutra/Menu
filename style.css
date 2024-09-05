@@ -1,0 +1,106 @@
+/* Base Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 900px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    color: #4CAF50;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+#todayLabel {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.date-picker {
+    margin: 20px 0;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+#mealDisplay {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#mealDisplay ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#mealDisplay li {
+    background-color: #f9f9f9;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    #todayLabel {
+        font-size: 1em;
+    }
+
+    input[type="date"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #mealDisplay li {
+        padding: 6px;
+    }
+}

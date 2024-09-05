@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Daily Menu</h1>
+            <p>Your guide to today's meals, and more</p>
+        </header>
+
+        <!-- Today's Menu Section -->
+        <div class="menu-section">
+            <p id="todayLabel">Today's Menu: <span id="todayDate"></span></p>
+
+            <!-- Date Picker to select a custom date -->
+            <div class="date-picker">
+                <label for="date">View Menu for a Different Date:</label>
+                <input type="date" id="datePicker">
+            </div>
+        </div>
+
+        <!-- Section to display the menu -->
+        <div id="menu">
+            <h2>Menu for <span id="selectedDate"></span></h2>
+            <div id="mealDisplay"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
