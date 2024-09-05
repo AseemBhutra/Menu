@@ -1,7 +1,7 @@
 // Load the JSON file with menu data
 const loadJSON = async () => {
     try {
-        const response = await fetch('15_days_menu_processed.json'); // Update to correct path
+        const response = await fetch('15_days_menu_processed.json'); // Ensure this path is correct
         const menuData = await response.json();
         return menuData;
     } catch (error) {
@@ -9,64 +9,65 @@ const loadJSON = async () => {
     }
 };
 
-// Function to display the menu based on the selected date
-const displayMenu = async (selectedDate) => {
+// Function to display the menu for today's date
+const displayMenu = async () => {
     const menuData = await loadJSON();
     
-    const menuForTheDay = menuData.find(menu => menu.date === selectedDate);
+    // Get today's date in YYYY-MM-DD format
+    const today = new Date();
+    const todayDate = today.toISOString().split('T')[0];
+
+    const menuForToday = menuData.find(menu => menu.date === todayDate);
     
     const mealDisplay = document.getElementById('mealDisplay');
-    const dateDisplay = document.getElementById('selectedDate');
 
-    if (menuForTheDay) {
-        dateDisplay.textContent = selectedDate;
-        
+    if (menuForToday) {
         let menuHTML = `<h3>Breakfast</h3><ul>`;
-        menuForTheDay.meals.breakfast.forEach(item => {
-            menuHTML += `<li>${item}</li>`;
+        menuForToday.meals.breakfast.forEach((item, index) => {
+            menuHTML += `<li style="--i:${index}">${item}</li>`;
         });
         menuHTML += `</ul><h3>Lunch</h3><ul>`;
-        menuForTheDay.meals.lunch.forEach(item => {
-            menuHTML += `<li>${item}</li>`;
+        menuForToday.meals.lunch.forEach((item, index) => {
+            menuHTML += `<li style="--i:${index}">${item}</li>`;
         });
         menuHTML += `</ul><h3>Snack</h3><ul>`;
-        menuForTheDay.meals.snack.forEach(item => {
-            menuHTML += `<li>${item}</li>`;
+        menuForToday.meals.snack.forEach((item, index) => {
+            menuHTML += `<li style="--i:${index}">${item}</li>`;
         });
         menuHTML += `</ul><h3>Dinner</h3><ul>`;
-        menuForTheDay.meals.dinner.forEach(item => {
-            menuHTML += `<li>${item}</li>`;
+        menuForToday.meals.dinner.forEach((item, index) => {
+            menuHTML += `<li style="--i:${index}">${item}</li>`;
         });
         menuHTML += `</ul><h3>Tuckshop</h3><ul>`;
-        menuForTheDay.meals.tuckshop.forEach(item => {
-            menuHTML += `<li>${item}</li>`;
+        menuForToday.meals.tuckshop.forEach((item, index) => {
+            menuHTML += `<li style="--i:${index}">${item}</li>`;
         });
         menuHTML += `</ul>`;
         
         mealDisplay.innerHTML = menuHTML;
     } else {
-        mealDisplay.innerHTML = `<p>No menu available for this date.</p>`;
+        mealDisplay.innerHTML = `<p>Menu not available for today. Sorry for the inconvenience.</p>`;
     }
 };
 
-// Get today's date in YYYY-MM-DD format
-const getTodayDate = () => {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
+// Function to toggle between dark and light modes
+const toggleDarkMode = () => {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+    
+    // Change title for accessibility
+    const toggleButton = document.getElementById('darkModeToggle');
+    if (body.classList.contains('dark-mode')) {
+        toggleButton.title = 'Switch to Light Mode';
+    } else {
+        toggleButton.title = 'Switch to Dark Mode';
+    }
 };
 
-// Display today's menu on page load
+// Add event listener to the dark mode toggle button
+document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+
+// Load the menu on page load
 window.onload = () => {
-    const todayDate = getTodayDate();
-    document.getElementById('todayDate').textContent = todayDate;
-    displayMenu(todayDate);
+    displayMenu();
 };
-
-// Event listener for the date picker to select a different date
-document.getElementById('datePicker').addEventListener('change', (event) => {
-    const selectedDate = event.target.value;
-    displayMenu(selectedDate);
-});

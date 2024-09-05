@@ -1,14 +1,33 @@
 /* Base Styling */
+:root {
+    --background-color: #f5efe6; /* Light beige background */
+    --text-color: #4a2c2a; /* Rich dark brown text */
+    --header-bg-color: #d2691e; /* Warm earthy orange for the header */
+    --header-text-color: white;
+    --menu-item-bg: #f8e7d1; /* Soft cream background for menu items */
+    --menu-item-border: #8b4513; /* Darker brown border for menu items */
+}
+
+body.dark-mode {
+    --background-color: #2b2b2b; /* Dark background for dark mode */
+    --text-color: #e0e0e0; /* Light text in dark mode */
+    --header-bg-color: #8b4513; /* Darker brown for dark mode header */
+    --header-text-color: #e0e0e0;
+    --menu-item-bg: #3e3e3e; /* Dark background for menu items in dark mode */
+    --menu-item-border: #d2691e; /* Orange border in dark mode */
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -17,50 +36,89 @@ body {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 70%;
-    max-width: 900px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: var(--background-color);
+    transition: background-color 0.3s;
 }
 
 header {
-    margin-bottom: 20px;
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header h1 {
-    font-size: 2.2em;
-    color: #4CAF50;
-    font-weight: 600;
-    margin-bottom: 5px;
+    font-size: 2em;
+    margin: 0;
 }
 
-header p {
-    font-size: 1.1em;
-    color: #666;
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d2691e;  /* Earthy orange for sun color */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#todayLabel {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #333;
+/* Create moon shape in dark mode */
+body.dark-mode .dark-mode-toggle {
+    background-color: #8b4513;  /* Dark brown for moon */
+    box-shadow: inset -10px -10px 0 0 #2b2b2b; /* Create moon shadow */
 }
 
-.date-picker {
-    margin: 20px 0;
+/* Dark Mode Toggle Shadow to create sun effect */
+.dark-mode-toggle::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFF;  /* Sun's center */
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2), 0 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-input[type="date"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
+/* Remove sun effect for moon in dark mode */
+body.dark-mode .dark-mode-toggle::before {
+    display: none;
 }
 
 #menu {
     margin-top: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
 #mealDisplay {
     margin-top: 20px;
     text-align: left;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+/* Animation for menu items */
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 #mealDisplay ul {
@@ -69,35 +127,39 @@ input[type="date"] {
 }
 
 #mealDisplay li {
-    background-color: #f9f9f9;
+    background-color: var(--menu-item-bg);
     padding: 8px;
     margin: 5px 0;
     border-radius: 5px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid var(--menu-item-border);
+    opacity: 0;
+    animation: fadeSlideIn 0.5s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+/* Scrollbar styling */
+#menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+#menu::-webkit-scrollbar-thumb {
+    background-color: var(--header-bg-color);
+    border-radius: 10px;
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .container {
-        width: 90%;
+        width: 95%;
         padding: 20px;
     }
 
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
-    header p {
+    #mealDisplay {
         font-size: 1em;
-    }
-
-    #todayLabel {
-        font-size: 1em;
-    }
-
-    input[type="date"] {
-        font-size: 14px;
-        padding: 8px;
     }
 
     #mealDisplay li {
