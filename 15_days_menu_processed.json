@@ -198,10 +198,10 @@
         "date": "2024-09-20",
         "meals": {
           "breakfast": ["PEAR", "TEA/ MILK", "B/B/J", "CHOCOS", "VERMICILLI", "GREEN CHUTNEY"],
-          "lunch": ["PEANUT SALAD", "DAL FRY", "VEG KADHI/ EGG CURRY", "SAUTE VEG", "ONION RICE", "BUTTER ROTI", "VEGETABLE RAITA"],
+          "lunch": ["PEANUT SALAD", "DAL FRY", "VEG KADHI/ EGG CURRY", "SAUTE VEG", "ONION RICE", "BUTTER ROTI", "MOONGDAL HALWA"],
           "snack": ["CHINESE BHEL", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "ALOO GOBI", "DAL MAKHNI", "VEG PULAO", "BUTTER ROTI", "RICE KHEER"],
-          "tuckshop": []
+          "dinner": ["GREEN SALAD", "LOBIYA MASALA", "ALOO RASEDAR", "KHATA MEETHA PUMPKIN", "JEERA RICE", "BUTTER ROTI", "VEGETABLE RAITA"],
+          "tuckshop": ["CHICKEN TIKKA MASALA"]
         }
       },
       {
