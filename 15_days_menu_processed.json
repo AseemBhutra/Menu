@@ -1,307 +1,152 @@
 [
-    {
-        "date": "2024-09-12",
-        "meals": {
-            "breakfast": [
-                "PINEAPPLE",
-                "TEA/ MILK",
-                "B/B/J",
-                "SRAWBERRY CORNFLAKES",
-                "VEG UTTAPAM",
-                "SAMBAR+ TOMATO CHUTNEY"
-            ],
-            "lunch": [
-                "PEANUT SALAD",
-                "DAL FRY",
-                "MUTTER MUSHROOM",
-                "BAINGAN BHARTA",
-                "PLAIN RICE",
-                "BUTTER ROTI",
-                "BOONDI RAITA",
-                "PAPAD"
-            ],
-            "snack": [
-                "PAV BHAJI",
-                "TEA/COFFEE"
-            ],
-            "dinner": [
-                "MIX SALAD",
-                "LOBIYA MASALA",
-                "KADHAI PANEER ",
-                "VEG KOLHAPURI",
-                "LEMON RICE",
-                "Butter roti",
-                "MALPUA"
-            ],
-            "tuckshop": [
-                "CHICKEN TIKKA GRAVY"
-            ]
-        }
-    },
-    {
-        "date": "2024-09-13",
-        "meals": {
-            "breakfast": [
-                "PEARS",
-                "TEA/ MILK",
-                "B/B/J",
-                "CHOCOS",
-                "PYAJ PARATHA",
-                "CURD"
-            ],
-            "lunch": [
-                "CORN MIX SALAD",
-                "DAL NAWABI",
-                "EGG BHURJI/SOYA CURRY",
-                "KALA CHANNA DRY",
-                "PLAIN RICE",
-                "BUTTER CHAPATTI",
-                "JALEBI",
-                "PAPAD"
-            ],
-            "snack": [
-                "BREAD ROLL",
-                "TEA/ COFFEE"
-            ],
-            "dinner": [
-                "PEANUT SALAD",
-                "TOMATO PAPPU",
-                "MAKHANA MASALA",
-                "AALOO BHUJIA",
-                "PLAIN RICE",
-                "ROTI/BUTTER ROTI",
-                "MIX RAITA"
-            ],
-            "tuckshop": [
-                "CHILLY CHICKEN/ FRIED RICE"
-            ]
-        }
-    },
-    {
-        "date": "2024-09-14",
-        "meals": {
-            "breakfast": [
-                "MIX FRUITS",
-                "TEA/ MILK",
-                "B/B/J",
-                "CORNFLAKES",
-                "SUJI UPMA",
-                "GREEN CHUTNEY"
-            ],
-            "lunch": [
-                "GREEN SALAD",
-                "NAVRATAN DAL",
-                "ALOO CHOLE",
-                "MIX VEG",
-                "ONION RICE",
-                "ROTI",
-                "BENGALI STYLE TOMATO CHUTNEY",
-                "FRYUMS"
-            ],
-            "snack": [
-                "HAKKA NOODLES",
-                "TEA/COFFEE"
-            ],
-            "dinner": [
-                "THREE BEANS SLAD",
-                "MAXICAIN RICE",
-                "WHITE SAUCE PASTA",
-                "ENCHIDILA SAUCE",
-                "QUESDILIA",
-                "FRUIT CUSTARD"
-            ],
-            "tuckshop": [
-                "butter chicken"
-            ]
-        }
-    },
-    {
-        "date": "2024-09-15",
-        "meals": {
-            "breakfast": [
-                "WATERMELON",
-                "TEA/ MILK",
-                "B/B/J",
-                "SRAWBERRY CORNFLAKES",
-                "VEG IDLI",
-                "SHAMBHAR CHUTNEY"
-            ],
-            "lunch": [
-                "BEANS SPROUTS SALAD",
-                "TOMATO DAL/PARIPPU",
-                "VEG MORKOLMBO",
-                "AVIAL",
-                "PLAIN RICE",
-                "TAWA ROTI",
-                "PAYASAM",
-                "PAPAD / APPLAM"
-            ],
-            "snack": [
-                "SAMOSA WITH MITHI CHUTNEY",
-                "TEA/ COFFEE"
-            ],
-            "dinner": [
-                "GREEN SALAD",
-                "PUNJABI DAL",
-                "SOYA CURRY",
-                "JEERA ALOO",
-                "PLAIN RICE",
-                "BEETROOT ROTI",
-                "MIX RAITA"
-            ],
-            "tuckshop": [
-                "CHICKEN BRIYANI"
-            ]
-        }
-    },
-    {
-        "date": "2024-09-16",
-        "meals": {
-          "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "CHOCOS", "ALOO PARATHA", "CURD"],
-          "lunch": ["CORN MIX SALAD", "DALFRY", "SHAHI PANEER", "GAJAR MATAR", "PLAIN RICE", "BUTTER ROTI", "GULAB JAMUN"],
-          "snack": ["MACARONI PASTA", "TEA/ COFFEE"],
-          "dinner": ["TOMATO SALAD", "VEG KOLAPURI", "JEERA ALOO", "DAL TADKA", "PLAIN RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-17",
-        "meals": {
-          "breakfast": ["APPLE", "TEA/ MILK", "B/B/J", "CORNFLAKES", "Poha", "TARI"],
-          "lunch": ["BOILED PEANUT SALAD", "DHABA DAL", "SOYA CURRY", "TAWA VEG", "JEERA RICE", "BUTTER ROTI", "BUTTER MILK"],
-          "snack": ["PIZZA SANDWICH", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "VEG HANDI", "BHINDI MASALA", "MOONG DAL TADKA", "JEERA RICE", "PLAIN ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-18",
-        "meals": {
-          "breakfast": ["PAPAYA", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "POORI", "ALOO BHAJI"],
-          "lunch": ["MIX SALAD", "ARHAR DAL", "CHOLE MASALA", "ARVI MASALA / EGG BHURJI", "ONION RICE", "BUTTER ROTI", "JALEBI"],
-          "snack": ["SAMOSA", "TEA/ COFFEE"],
-          "dinner": ["CABBAGE SALAD", "ALOO MUTTER", "BAINGAN BHARTA", "MOONG DAL", "JEERA RICE", "PLAIN ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-19",
-        "meals": {
-          "breakfast": ["PINEAPPLE", "TEA/ MILK", "B/B/J", "CHOCOS", "DAL KACHORI", "ALOO BHAJI"],
-          "lunch": ["ONION SALAD", "MAA KI DAL", "LAUKI MASALA", "CHATPATA BABY POTATO", "PLAIN RICE", "BUTTER ROTI", "CURD"],
-          "snack": ["CHOLE KULCHE", "TEA/ COFFEE"],
-          "dinner": ["BEETROOT SALAD", "KADHI PAKORA", "MUSHROOM MASALA", "JEERA RICE", "BUTTER ROTI", "GULAB JAMUN"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-20",
-        "meals": {
-          "breakfast": ["PEAR", "TEA/ MILK", "B/B/J", "CHOCOS", "VERMICILLI", "GREEN CHUTNEY"],
-          "lunch": ["PEANUT SALAD", "DAL FRY", "VEG KADHI/ EGG CURRY", "SAUTE VEG", "ONION RICE", "BUTTER ROTI", "MOONGDAL HALWA"],
-          "snack": ["CHINESE BHEL", "TEA/ COFFEE"],
-          "dinner": ["GREEN SALAD", "LOBIYA MASALA", "ALOO RASEDAR", "KHATA MEETHA PUMPKIN", "JEERA RICE", "BUTTER ROTI", "VEGETABLE RAITA"],
-          "tuckshop": ["CHICKEN TIKKA MASALA"]
-        }
-      },
-      {
-        "date": "2024-09-21",
-        "meals": {
-          "breakfast": ["WATERMELON", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "SUJI UPMA", "COCONUT CHUTNEY"],
-          "lunch": ["CORN MIX SALAD", "RAJMA MASALA", "ALOO SOYA MUTTER", "VEG JALFREZI", "ONION RICE", "BUTTER ROTI", "MIX RAITA"],
-          "snack": ["MASALA MACRONI", "TEA/ COFFEE"],
-          "dinner": ["TOMATO SALAD", "PANEER BUTTER MASALA", "DAL TADKA", "PLAIN RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-22",
-        "meals": {
-          "breakfast": ["MOSAMBI", "TEA/ MILK", "B/B/J", "CORNFLAKES", "SABUDANA KHICHDI", "GREEN CHUTNEY"],
-          "lunch": ["ONION SALAD", "DAL MAKHNI", "PALAK PANEER", "ALOO JEERA", "JEERA RICE", "BUTTER ROTI", "MIX RAITA"],
-          "snack": ["SPRING ROLL", "TEA/ COFFEE"],
-          "dinner": ["BEETROOT SALAD", "RAJMA MASALA", "KADHI PAKODA", "JEERA RICE", "BUTTER ROTI", "MALPUA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-23",
-        "meals": {
-          "breakfast": ["CHICKOO", "TEA/ MILK", "B/B/J", "CORNFLAKES", "MASALA DOSA", "SAMBAR/CHUTNEY"],
-          "lunch": ["CABBAGE SALAD", "DAL TADKA", "ALOO BAINGAN", "JEERA RICE", "ROTI", "RASGULLA"],
-          "snack": ["SAMOSA", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "PANEER DO PYAZA", "DAL FRY", "LEMON RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-24",
-        "meals": {
-          "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "VEG PARATHA", "CURD"],
-          "lunch": ["MIX SALAD", "RAJMA", "PALAK PANEER", "MIX VEG", "JEERA RICE", "BUTTER ROTI", "RICE KHEER"],
-          "snack": ["POHA", "TEA/ COFFEE"],
-          "dinner": ["ONION SALAD", "VEG KOFTA", "DAL MAKHNI", "LEMON RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-25",
-        "meals": {
-          "breakfast": ["APPLE", "TEA/ MILK", "B/B/J", "CORNFLAKES", "POORI", "ALOO BHAJI"],
-          "lunch": ["ONION SALAD", "PINDI CHHOLE", "PALAK PANEER", "JEERA RICE", "BUTTER ROTI", "MIX RAITA"],
-          "snack": ["SAMOSA", "TEA/ COFFEE"],
-          "dinner": ["GREEN SALAD", "KADHI", "ALOO JEERA", "PLAIN RICE", "ROTI", "GULAB JAMUN"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-26",
-        "meals": {
-          "breakfast": ["PAPAYA", "TEA/ MILK", "B/B/J", "CORNFLAKES", "ALOO PYAAZ PARATHA", "CURD"],
-          "lunch": ["MACARONI SALAD", "TOMATO PAPPU", "HARIYALI KOFTA", "ALOO SPRING ONION", "ONION RICE", "BUTTER ROTI", "BOONDI RAITA"],
-          "snack": ["VADA PAO WITH MASSLA MIRCH & RED CHUTNEY", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "RAJMA MASALA", "JEERA ALOO", "DAL FRY", "JEERA RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-27",
-        "meals": {
-          "breakfast": ["PINEAPPLE", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "VERMICILLI", "GREEN CHUTNEY"],
-          "lunch": ["CHANA SALAD", "DAL MAKHNI", "MUTTER PANEER", "BHINDI MASALA", "JEERA RICE", "BUTTER ROTI", "VEGETABLE RAITA"],
-          "snack": ["WHITE SAUCE PASTA", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "VEG KOLHAPURI", "PANEER TIKKA MASALA", "DAL TADKA", "JEERA RICE", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-28",
-        "meals": {
-          "breakfast": ["PEAR", "TEA/ MILK", "B/B/J", "CHOCOS", "PODI IDLI", "TOMATO CHUTNEY /SAMBAR"],
-          "lunch": ["TOSSED SALAD", "MARATHI VEG", "ALOO BHAJHI (MARATHA STYLE)", "VARAN", "KHICHDI MASALA", "PURI", "SHRIKHAND"],
-          "snack": ["RAGDA PATTIES", "TEA/ COFFEE"],
-          "dinner": ["GREEN SALAD", "VEG MAKHANWALA", "DAL TADKA", "VEG PULAO", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-29",
-        "meals": {
-          "breakfast": ["WATERMELON", "TEA/ MILK", "B/B/J", "CORNFLAKES", "SABUDANA VADA", "GREEN CHUTNEY/ CURD"],
-          "lunch": ["ONION SALAD & MASALA MIRCH", "CHHOLE", "GREEN CHUTNEY", "AALOO JEERA", "JEERA RICE", "BHATURE", "LASSI"],
-          "snack": ["MASALA IDLI", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "PANEER BUTTER MASALA", "DAL MAKHNI", "VEG PULAO", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      },
-      {
-        "date": "2024-09-30",
-        "meals": {
-          "breakfast": ["MOSAMBI", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "DAL PARATHA", "CURD"],
-          "lunch": ["MIX SALAD", "BIYULI DAAL (urrad)", "CHENA KOFTA/DOI POTOL", "ALU BORI POSTO", "PLAIN RICE", "BUTTER ROTI", "MIX FRUIT CHUTNEY"],
-          "snack": ["PAV BHAJI", "TEA/ COFFEE"],
-          "dinner": ["MIX SALAD", "VEG PULAO", "DAL TADKA", "PANEER BHURJI", "BUTTER ROTI", "MIX RAITA"],
-          "tuckshop": []
-        }
-      }
+  {
+    "date": "2024-10-01",
+    "meals": {
+      "breakfast": ["APPLE", "TEA/ MILK", "B/B/J", "CORNFLAKES", "PAYAZ KACHORI", "ALOO BHAJI"],
+      "lunch": ["BEETROOT SALAD", "DAL NAWABI", "VEG KOLHAPURI", "DRY KALA CHANA", "JEERA RICE", "ROTI/BUTTER ROTI", "BUTTER MILK", "PAPAD"],
+      "snack": ["DAL DHOKLI", "TEA/ COFFEE"],
+      "dinner": ["BOILED PEANUT SALAD (Without Cucumber)", "DAL FRY", "MALAI KOFTA(WHITE GRAVY)", "SOYA 65/ EGG KOSHA", "PLAIN RICE", "BUTTER ROTI", "SHAHI TUKDA"],
+      "tuckshop": ["CHICKEN BRIYANI"]
+    }
+  },
+  {
+    "date": "2024-10-02",
+    "meals": {
+      "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "CHOCOS", "INDORI POHA", "CHANNA TARI"],
+      "lunch": ["MACRONI SALAD", "SABUT MOONG DAL", "EGG CURRY/VEG KORMA", "ACHARI ALOO", "ONION RICE", "BUTTER ROTI", "FRUIT CUSTARD", "FRYUMS"],
+      "snack": ["PIZZA SANDWICH/GARLIC CHUTNEY", "TEA/ COFFEE"],
+      "dinner": ["SPROUTS SALAD", "YELLOW MASOOR DAL", "VEG MAKHANA", "BAIGAN BHARTA", "VEGETABLE PULAO", "PLAIN/BUTTER CHAPATTI", "MIXED RAITA"],
+      "tuckshop": ["CHICKEN CURRY"]
+    }
+  },
+  {
+    "date": "2024-10-03",
+    "meals": {
+      "breakfast": ["CUT FRUITS", "TEA/ MILK", "B/B/J", "SRAWBERRY CORNFLAKES", "ONION UTTPAM", "SAMBAR/PEANUT CHUTNEY(NO GINGER)"],
+      "lunch": ["CUCUMBER/CARROT", "ARHAR DAL", "PANEER LABABDAR", "CORN CAPCICUM MASALA", "MASALA BHAT", "BUTTER ROTI", "BUTTER MILK", "PAPAD"],
+      "snack": ["SAMOSA WITH MITHI/ GREEN CHUTNEY", "TEA/COFFEE"],
+      "dinner": ["CHANA SALAD", "MOONG  DAL FRY", "RAJMA MASALA", "TAWA VEG", "JEERA RICE", "PLAIN/BUTTER CHAPATTI", "SOOJI KA HALWA"],
+      "tuckshop": ["HYDERABADI BIRYANI"]
+    }
+  },
+  {
+    "date": "2024-10-04",
+    "meals": {
+      "breakfast": ["PINEAPPLE", "TEA/ MILK", "B/B/J", "SRAWBERRY CORNFLAKES", "VERMICILLI", "GREEN CHUTNEY"],
+      "lunch": ["CORN MIX SALAD", "DAL MAKHANI", "MUSHROOM MASALA", "CHATPATA BABY ALOO", "JEERA RICE", "PLAIN/BUTTER CHAPATTI", "JALEBI", "FRYUMS"],
+      "snack": ["CHINESE BHEL", "TEA/ COFFEE"],
+      "dinner": ["MIX SALAD", "DAL TADKA", "DUM ALOO", "SAUTE VEG", "ONION RICE", "BUTTER ROTI", "BEETROOT RAITA"],
+      "tuckshop": ["CHILLI CHICKEN/ FRIED RICE"]
+    }
+  },
+  {
+    "date": "2024-10-05",
+    "meals": {
+      "breakfast": ["MOSAMBI", "TEA/ MILK", "B/B/J", "CORNFLAKES", "ALOO PYAAZ PARANTHA", "CURD"],
+      "lunch": ["CARROT SALAD", "RAJMA MASALA", "LAUKI TAMATAR", "VEG JELFREZI", "PLAIN RICE", "PLAIN/BUTTER CHAPATTI", "BOONDI RAITA", "ALOO JHURI BHAJA"],
+      "snack": ["BOILED BUTTER MASALA CORN", "TEA/ COFFEE"],
+      "dinner": ["BEETROOT SALAD", "LOBIYA DAAL", "PAKAODA KADHI", "KHATA MEETHA PUMPKIN", "JEERA RICE", "BUTTER ROTI", "GULAB JAMUN"],
+      "tuckshop": ["LUCKNOWI BIRYANI"]
+    }
+  },
+  {
+    "date": "2024-10-06",
+    "meals": {
+      "breakfast": ["PAPAYA", "TEA/ MILK", "B/B/J", "CHOCOS", "SABUDANA KHICHDI", "CURD"],
+      "lunch": ["ONION SALAD", "PINDI CHHOLE", "GREEN CHUTNEY", "AALOO JEERA", "PLAIN RICE", "BHATURE", "THICK SWEET LASSI", "PAPAD"],
+      "snack": ["PAV BHAJI", "TEA/COFFEE"],
+      "dinner": ["ONION SALAD", "TOMTO PAPPU", "MAKHANA CORN MASALA", "KHATA MEETHA PUMPKIN", "PLAIN RICE", "BUTTER ROTI", "RASAM"],
+      "tuckshop": ["CHICKEN TIKKA GRAVY"]
+    }
+  },
+  {
+    "date": "2024-10-07",
+    "meals": {
+      "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "CHOCOS", "POORI", "ALOO BHAJI"],
+      "lunch": ["BOILED PEANUT SALAD", "PUNCHMEL DAL", "ALOO MATAR RASEDAR", "MASALA ARVI", "JEERA RICE", "BUTTER ROTI", "MOONG DAL HALWA", "FRYUMS"],
+      "snack": ["CHUTNEY", "TEA/ COFFEE"],
+      "dinner": ["MACRONI SALAD", "ARHAR DAL", "SOYA CURRY", "MIX VEG", "PLAIN RICE", "BUTTER ROTI", "MIX VEG RAITA"],
+      "tuckshop": ["BUTTER CHICKEN"]
+    }
+  },
+  {
+    "date": "2024-10-08",
+    "meals": {
+      "breakfast": ["MIXED FRUIT", "TEA/ MILK", "B/B/J", "CORNFLAKES", "UPMA (GINGER)"],
+      "lunch": ["RAJMA SALAD", "DHABA DAL", "MASALA", "LAUKI TAMATAR", "ONION RICE", "PLAIN PARATHA", "COCONUT BARFI", "PAPAD"],
+      "snack": ["HAKKA NOODLES", "TEA/ COFFEE"],
+      "dinner": ["CORN SALAD", "DAL MAKHNI", "VEG MARATHA", "BABY POTATO", "JEERA RICE", "BUTTER ROTI", "ONION RAITA"],
+      "tuckshop": ["CHICKEN KORMA"]
+    }
+  },
+  {
+    "date": "2024-10-09",
+    "meals": {
+      "breakfast": ["APPLE", "TEA/ MILK", "B/B/J", "CORNFLAKES", "ALOO PARATHA", "CURD"],
+      "lunch": ["BEETROOT SALAD", "MASOORI DAL", "JAIPURI KADHI", "MASALA KARELA", "JEERA RICE", "BUTTER ROTI", "BOONDI RAITA"],
+      "snack": ["BREAD POHA", "TEA/ COFFEE"],
+      "dinner": ["KIMCHI SALAD", "VEGAN NOODLES", "VEG MANCHURIAN", "CHILLI POTATO", "VEG FRIED RICE", "MANCHOW SOUP", "ICE CREAM"],
+      "tuckshop": ["KADAI CHICKEN"]
+    }
+  },
+  {
+    "date": "2024-10-10",
+    "meals": {
+      "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "CHOCOS", "IDLI", "CHUTNEY (NO GINGER)"],
+      "lunch": ["SPROUTS SALAD", "DAL LEHSUNI", "GATTE KI SABJI", "SOYA 65", "PLAIN RICE", "ROTI/BUTTER ROTI", "BALUSHAHI", "PAPAD"],
+      "snack": ["RAGADA PATTICE", "TEA/ COFFEE"],
+      "dinner": ["BEETROOT SALAD", "DAL NAWABI", "VEG KOLHAPURI", "DRY KALA CHANA", "PLAIN RICE", "BUTTER ROTI", "BUTTER MILK"],
+      "tuckshop": ["CHICKEN TIKKA GRAVY"]
+    }
+  },
+  {
+    "date": "2024-10-11",
+    "meals": {
+      "breakfast": ["MIX FRUITS", "TEA/ MILK", "B/B/J", "CORNFLAKES", "POHA", "TARI/GREEN CHUTNEY"],
+      "lunch": ["CHANA SALAD", "MOONG DAL FRY", "RAJMA MASALA", "TAWA VEG", "JEERA RICE", "PLAIN/BUTTER CHAPATI", "JALEBI", "FRYUMS"],
+      "snack": ["MACRONI PASTA", "TEA/ COFFEE"],
+      "dinner": ["MACRONI SALAD", "DHABA DAL", "MUSHROOM MASALA", "ACHARI ALOO", "ONION RICE", "BUTTER ROTI", "MALPUA"],
+      "tuckshop": ["HYDERABADI BIRYANI"]
+    }
+  },
+  {
+    "date": "2024-10-12",
+    "meals": {
+      "breakfast": ["PINEAPPLE", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "BESAN CHILLA (NO GINGER)"],
+      "lunch": ["PEANUT SALAD", "DAL FRY", "KADAI PANEER", "KALA CHANNA DRY", "PLAIN RICE", "BUTTER ROTI", "BESAN LADDU", "PAPAD"],
+      "snack": ["PAV BHAJI", "TEA/COFFEE"],
+      "dinner": ["ONION SALAD", "TOMATO PAPPU", "MAKHANA CORN MASALA", "KHATA MEETHA PUMPKIN", "PLAIN RICE", "BUTTER ROTI", "RASAM"],
+      "tuckshop": ["CHICKEN TIKKA GRAVY"]
+    }
+  },
+  {
+    "date": "2024-10-13",
+    "meals": {
+      "breakfast": ["PAPAYA", "TEA/ MILK", "B/B/J", "CHOCOS", "SABUDANA KHICHDI", "CURD"],
+      "lunch": ["ONION SALAD", "PINDI CHHOLE", "GREEN CHUTNEY", "AALOO JEERA", "PLAIN RICE", "BHATURE", "THICK SWEET LASSI", "PAPAD"],
+      "snack": ["CORN", "TEA/COFFEE"],
+      "dinner": ["MASAALA DOSA", "SAMBHAR", "TOMATO CHUTNEY", "LEMON RICE", "IDLI/MEDU VADA", "PAYASUM"],
+      "tuckshop": ["CHILLY CHICKEN/ FRIED RICE"]
+    }
+  },
+  {
+    "date": "2024-10-14",
+    "meals": {
+      "breakfast": ["MOSAMBI", "TEA/ MILK", "B/B/J", "CORNFLAKES", "ALOO PYAZ PARANTHA", "CURD"],
+      "lunch": ["CORN MIX SALAD", "DAL MUGHLAI", "EGG BHURJI/SOYA CURRY", "ARCHARI ALOO", "PLAIN RICE", "BUTTER CHAPATTI", "MIX RAITA", "FRYUMS"],
+      "snack": ["CHOLE KULCHE", "TEA/COFFEE"],
+      "dinner": ["MEXICAN 3 BEAN SALAD", "POTATO WEDGES", "ENCHILADA SAUCE", "QUESDILLA", "MEXICAN RICE", "PASTA PINK SAUCE", "ICE CREAM"],
+      "tuckshop": ["BUTTER CHICKEN"]
+    }
+  },
+  {
+    "date": "2024-10-15",
+    "meals": {
+      "breakfast": ["BANANA", "TEA/ MILK", "B/B/J", "STRAWBERRY CORNFLAKES", "VERMICILI", "GREEN CHUTNEY"],
+      "lunch": ["GREEN SALAD", "LOBIA MASALA", "ALOO CHOLE", "MIX VEG", "ONION RICE", "ROTI", "GULAB JAMUN", "PAPAD"],
+      "snack": ["SPRING ROLLS WITH SCHEZWAN CHUTNEY", "TEA/ COFFEE"],
+      "dinner": ["SPROUTS SALAD", "DAL TADKA", "PANEER DO PYAZA", "ARVI MASALA", "JEERA RICE", "BUTTER ROTI", "CUCUMBER RAITA"],
+      "tuckshop": ["CHICKEN BIRYANI"]
+    }
+  }
 ]
